@@ -53,9 +53,11 @@
                     @else
                         <a href="{{ route('login') }}" class="nav-item nav-link">Login</a>
                     @endauth
+                </div>
             </div>
         </nav>
     </div>
+
     <div class="container-fluid p-0 mb-5">
         <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
             <div class="carousel-inner">
@@ -84,6 +86,7 @@
             </a>
         </div>
     </div>
+
     <div class="container-fluid py-5">
         <div class="container">
             <div class="section-title">
@@ -113,6 +116,7 @@
             </div>
         </div>
     </div>
+
     <div class="container-fluid pt-5">
         <div class="container">
             <div class="section-title">
@@ -145,46 +149,48 @@
             </div>
         </div>
     </div>
-   <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
-    <div class="row mx-0 pt-5 px-3 px-lg-5 mt-4 justify-content-between">
-        <div class="col-lg-4 col-md-6 mb-5">
-            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Kontak Kami</h4>
-            <p><i class="fa fa-map-marker-alt mr-2"></i>Jl. Harapan gg harapan 1, Rumbai</p>
-            <p><i class="fa fa-phone-alt mr-2"></i>+62 895 1574 2694</p>
-            <p class="m-0"><i class="fa fa-envelope mr-2"></i>kontak@Hakimwertu.com</p>
-        </div>
 
-        <div class="col-lg-4 col-md-6 mb-5">
-            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Ikuti Kami</h4>
-            <p>Untuk mendapatkan info terbaru dari kami.</p>
-            <div class="d-flex justify-content-start">
-                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+    <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
+        <div class="row mx-0 pt-5 px-3 px-lg-5 mt-4 justify-content-between">
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Kontak Kami</h4>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Jl. Harapan gg harapan 1, Rumbai</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+62 895 1574 2694</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>kontak@Hakimwertu.com</p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Ikuti Kami</h4>
+                <p>Untuk mendapatkan info terbaru dari kami.</p>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Jam Buka</h4>
+                <div class="w-100">
+                    <div class="d-flex justify-content-between mb-2">
+                        <h6 class="text-white text-uppercase m-0">Senin - Jumat</h6>
+                        <p class="m-0">08.00 - 15.00 WIB</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="text-white text-uppercase m-0">Sabtu - Minggu</h6>
+                        <p class="m-0">10.00 - 20.00 WIB</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 mb-5">
-            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Jam Buka</h4>
-            <div class="w-100">
-                <div class="d-flex justify-content-between mb-2">
-                    <h6 class="text-white text-uppercase m-0">Senin - Jumat</h6>
-                    <p class="m-0">08.00 - 15.00 WIB</p>
-                </div>
-                <div class="d-flex justify-content-between">
-                    <h6 class="text-white text-uppercase m-0">Sabtu - Minggu</h6>
-                    <p class="m-0">10.00 - 20.00 WIB</p>
-                </div>
-            </div>
+        <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+            <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="{{ url('/') }}">BogengStore</a>. All Rights Reserved.</p>
+            <p class="m-0 text-white">Designed by <a class="font-weight-bold" href="https://htmlcodex.com">HTML Codex</a> Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a></p>
         </div>
     </div>
-
-    <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-        <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="{{ url('/') }}">BogengStore</a>. All Rights Reserved.</p>
-        <p class="m-0 text-white">Designed by <a class="font-weight-bold" href="https://htmlcodex.com">HTML Codex</a> Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a></p>
-    </div>
-</div>
+    
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -197,5 +203,4 @@
 
     <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
-
 </html>
